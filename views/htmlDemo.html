@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB700 - HTML Demo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/theme.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Happy Akter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/htmlDemo">HTML Demo</a></li>
+                <li class="nav-item"><a class="nav-link" href="/students/add">Add Student</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Tables</h1>
+        <hr>
+        <table class="table table-bordered">
+            <caption>Colors in Different Languages</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th>English</th>
+                    <th>French</th>
+                    <th>Spanish</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Yellow</td><td>Jaune</td><td>Amarillo</td></tr>
+                <tr><td>Blue</td><td>Bleu</td><td>Azul</td></tr>
+                <tr><td>Red</td><td>Rouge</td><td>Rojo</td></tr>
+            </tbody>
+        </table>
+
+        <h1>Lists</h1>
+        <hr>
+        <ul>
+            <li>British Columbia</li>
+            <li>New Brunswick</li>
+            <li>Greater Toronto Area
+                <ol>
+                    <li>Toronto</li>
+                    <li>Markham</li>
+                    <li>Vaughan</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h1>Images</h1>
+        <hr>
+        <img src="https://globalbridge-edu.com/wp-content/uploads/2024/04/Seneca-Polytechnic-Newnham-Campus.jpg" alt="Seneca Polytechnic" class="img-fluid"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg" alt="Canada Flag" class="img-fluid"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js Logo" class="img-fluid">
+
+        <h1>Audio</h1>
+        <hr>
+        <audio controls>
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+        </audio>
+
+        <h1>Video</h1>
+        <hr>
+        <video width="640" height="360" controls>
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+        </video>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
