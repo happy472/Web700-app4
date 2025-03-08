@@ -18,9 +18,9 @@ var path = require("path"); // Importing path module for handling file paths
 app.use(express.urlencoded({ extended: true }));
 
 // Serving static files from the 'views' directory
-app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, '/views')));
 // Serving static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 // Route for home page
 app.get("/", (req, res) => {
